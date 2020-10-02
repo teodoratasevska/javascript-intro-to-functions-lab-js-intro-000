@@ -20,7 +20,7 @@ function logShout(string) {
 /*  logWhisper(string) calls console.log() its one argument in all lowercase:
     ReferenceError: logWhisper is not defined */
 function logWhisper(string) {
-    console.log() string.toLowerCase
+    console.log() string.toLowerCase()
 }
 
 /*  sayHiToGrandma(string) returns "I can't hear you!" if `string` is lowercase:
