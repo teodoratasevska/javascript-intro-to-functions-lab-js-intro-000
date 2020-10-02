@@ -31,7 +31,7 @@ function logWhisper(string) {
 
     sayHiToGrandma(string) returns "I love you, too." if `string` is "I love you, Grandma."`:
     ReferenceError: sayHiToGrandma is not defined  */
-    
+
 function sayHiToGrandma(string) {
   if ((string)===uppercase) {
     return 'YES INDEED!'
